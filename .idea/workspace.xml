@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72e7ae87-604e-425e-b11c-1eac267408e2" name="Default Changelist" comment="hewwo main">
-      <change beforePath="$PROJECT_DIR$/.idea/ChessSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ChessSystem.iml" afterDir="false" />
+    <list default="true" id="72e7ae87-604e-425e-b11c-1eac267408e2" name="Default Changelist" comment="brrrrrrrr main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/application/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/boardgame/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/boardgame/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/boardgame/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/rules/ChessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/rules/ChessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/rules/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/rules/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/rules/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/rules/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/rules/ChessPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/rules/ChessPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/rules/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/rules/Color.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -70,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614284147069</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="brrrrrrrr main">
+      <created>1614284865371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614284865371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hewwo main" />
-    <option name="LAST_COMMIT_MESSAGE" value="hewwo main" />
+    <MESSAGE value="brrrrrrrr main" />
+    <option name="LAST_COMMIT_MESSAGE" value="brrrrrrrr main" />
   </component>
 </project>

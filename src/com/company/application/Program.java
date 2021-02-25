@@ -1,12 +1,17 @@
 package com.company.application;
 
+import com.company.boardgame.Board;
+import com.company.boardgame.Position;
+import com.company.chess.rules.ChessMatch;
+
 public class Program {
 
     public static void main(String[] args) {
 
-        System.out.println("hewwo");
-        System.out.println("hewoooooo");
-        System.out.println("brrrrrrrrrrrrrrrrrrr");
+        ChessMatch match = new ChessMatch();
+        UI.printBoard(match.getPieces());
+
+
     }
 
 }
