@@ -5,16 +5,29 @@ import com.company.boardgame.BoardException;
 import com.company.boardgame.Position;
 import com.company.chess.rules.ChessException;
 import com.company.chess.rules.ChessMatch;
+import com.company.chess.rules.ChessPiece;
+import com.company.chess.rules.ChessPosition;
+
+import java.util.Scanner;
 
 public class Program {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws BoardException, ChessException {
 
-        try {
-            ChessMatch match = new ChessMatch();
+        Scanner sc = new Scanner(System.in);
+        ChessMatch match = new ChessMatch();
+
+        while (true) {
             UI.printBoard(match.getPieces());
-        } catch (BoardException | ChessException e) {
-            System.out.println("ERROR: " + e.getMessage());
+            System.out.println();
+            System.out.print("Source: ");
+            ChessPosition source = UI.readChessPosition(sc);
+            System.out.print("Target: ");
+            ChessPosition target = UI.readChessPosition(sc);
+            System.out.println();
+
+            ChessPiece captured = match.performChessMove(source,target);
+
         }
     }
 }
