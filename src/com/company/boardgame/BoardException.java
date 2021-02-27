@@ -1,4 +1,8 @@
 package com.company.boardgame;
 
-public class BoardException {
+public class BoardException extends Exception {
+
+    public BoardException(String msg) {
+        super(msg);
+    }
 }

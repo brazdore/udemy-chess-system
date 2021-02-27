@@ -31,7 +31,7 @@ public class Position {
 
     @Override
     public String toString() {
-        return "[ROW/COLUMN] = [" + row + "/" + column + "]";
+        return " [ROW/COLUMN] = [" + row + "/" + column + "]";
     }
 
     public void setValues(int row, int column) {
