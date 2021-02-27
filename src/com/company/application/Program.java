@@ -17,6 +17,5 @@ public class Program {
             System.out.println("ERROR: " + e.getMessage());
         }
     }
-
 }
 
