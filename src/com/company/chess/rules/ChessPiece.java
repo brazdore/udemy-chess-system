@@ -1,9 +1,11 @@
 package com.company.chess.rules;
 
 import com.company.boardgame.Board;
+import com.company.boardgame.BoardException;
 import com.company.boardgame.Piece;
+import com.company.boardgame.Position;
 
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 
     private Color color;
 
@@ -14,5 +16,10 @@ public class ChessPiece extends Piece {
 
     public Color getColor() {
         return color;
+    }
+
+    protected boolean isThereOpponentPiece(Position position) throws BoardException {
+        ChessPiece p = (ChessPiece) getBoard().getPiece(position);
+        return p != null && p.getColor() != color;
     }
 }
