@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="72e7ae87-604e-425e-b11c-1eac267408e2" name="Default Changelist" comment="Lógica do Torre.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/boardgame/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Bishop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/King.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Queen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/chess/rules/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/rules/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/chess/rules/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/rules/ChessPiece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
