@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72e7ae87-604e-425e-b11c-1eac267408e2" name="Default Changelist" comment="Lógica do Torre.">
+    <list default="true" id="72e7ae87-604e-425e-b11c-1eac267408e2" name="Default Changelist" comment="Maior parte dos movimentos; falta Knight e a porcaria do en passant do Pawn.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Bishop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/King.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Pawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/chess/rules/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/rules/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614391437978</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Maior parte dos movimentos; falta Knight e a porcaria do en passant do Pawn.">
+      <created>1616639362244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616639362244</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +171,7 @@
     <MESSAGE value="Amarelo + Verde." />
     <MESSAGE value="Movendo e Capturando." />
     <MESSAGE value="Lógica do Torre." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lógica do Torre." />
+    <MESSAGE value="Maior parte dos movimentos; falta Knight e a porcaria do en passant do Pawn." />
+    <option name="LAST_COMMIT_MESSAGE" value="Maior parte dos movimentos; falta Knight e a porcaria do en passant do Pawn." />
   </component>
 </project>
