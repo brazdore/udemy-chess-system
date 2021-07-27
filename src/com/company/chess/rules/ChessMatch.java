@@ -5,7 +5,7 @@ import com.company.boardgame.BoardException;
 import com.company.boardgame.Piece;
 import com.company.boardgame.Position;
 import com.company.chess.pieces.King;
-import com.company.chess.pieces.Queen;
+import com.company.chess.pieces.Rook;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +17,7 @@ public class ChessMatch {
     private int turn;
     private Color currentPlayer;
     private boolean check;
+    private boolean checkmate;
 
     private List<Piece> piecesOnBoard = new ArrayList<>();
     private List<Piece> capturedPieces = new ArrayList<>();
@@ -35,6 +36,10 @@ public class ChessMatch {
 
     public boolean getCheck() {
         return check;
+    }
+
+    public boolean getCheckmate() {
+        return checkmate;
     }
 
     public Color getCurrentPlayer() {
@@ -65,7 +70,11 @@ public class ChessMatch {
 
         check = testCheck(opponent(currentPlayer));
 
-        nextTurn();
+        if (testCheckmate(opponent(currentPlayer))) {
+            checkmate = true;
+        } else { /// Só passa o turno de não for mate.
+            nextTurn();
+        }
         return (ChessPiece) capturedPiece;
     }
 
@@ -141,16 +150,43 @@ public class ChessMatch {
         return false;
     }
 
+    private boolean testCheckmate(Color color) throws ChessException, BoardException {
+        if (!testCheck(color)) {
+            return false;
+        }
+        List<Piece> list = piecesOnBoard.stream().filter(x -> ((ChessPiece) x).getColor() == color).collect(Collectors.toList());
+        for (Piece p : list) {
+            boolean[][] mat = p.possibleMoves();
+            for (int i = 0; i < board.getRows(); i++) {
+                for (int j = 0; j < board.getColumns(); j++) {
+                    if (mat[i][j]) {
+                        Position source = ((ChessPiece) p).getChessPosition().toPosition();
+                        Position target = new Position(i, j);
+                        Piece capturedPiece = makeMove(source, target);
+                        boolean testCheck = testCheck(color);
+                        undoMove(source, target, capturedPiece);
+                        if (!testCheck) {
+                            return false;
+                        }
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
     private void placeNewPiece(char column, int row, ChessPiece piece) throws ChessException, BoardException {
         board.placePiece(piece, new ChessPosition(column, row).toPosition());
         piecesOnBoard.add(piece);
     }
 
     private void initialSetup() throws BoardException, ChessException {
-        placeNewPiece('a', 1, new Queen(board, Color.WHITE));
-        placeNewPiece('e', 8, new Queen(board, Color.BLACK));
-        placeNewPiece('a', 2, new King(board, Color.WHITE));
-        placeNewPiece('e', 3, new King(board, Color.BLACK));
+        placeNewPiece('h', 7, new Rook(board, Color.WHITE));
+        placeNewPiece('d', 1, new Rook(board, Color.WHITE));
+        placeNewPiece('e', 1, new King(board, Color.WHITE));
+
+        placeNewPiece('b', 8, new Rook(board, Color.BLACK));
+        placeNewPiece('a', 8, new King(board, Color.BLACK));
 
       /*  placeNewPiece('a', 1, new Rook(board, Color.WHITE));
         placeNewPiece('b', 1, new Knight(board, Color.WHITE));
