@@ -18,6 +18,10 @@ public abstract class ChessPiece extends Piece {
         return color;
     }
 
+    public ChessPosition getChessPosition() throws ChessException {
+        return ChessPosition.fromPosition(position);
+    }
+
     protected boolean isThereOpponentPiece(Position position) throws BoardException {
         ChessPiece p = (ChessPiece) getBoard().getPiece(position);
         return p != null && p.getColor() != color;
