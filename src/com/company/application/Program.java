@@ -35,6 +35,17 @@ public class Program {
                     capturedPieces.add(captured);
                 }
 
+                if (match.getPromoted() != null) {
+                    System.out.println("Choose a promotion (B, N, R, Q): ");
+                    String type = sc.nextLine().toUpperCase();
+
+                    while (!type.equals("B") && !type.equals("N") && !type.equals("R") && !type.equals("Q")) {
+                        System.out.println("Invalid input. Choose a promotion (B, N, R, Q): ");
+                        type = sc.nextLine();
+                    }
+                    match.replacePromotedPiece(type);
+                }
+
             } catch (ChessException | InputMismatchException e) {
                 System.out.println(e.getMessage() + " Press ENTER to continue.");
                 sc.nextLine();

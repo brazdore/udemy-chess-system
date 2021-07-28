@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72e7ae87-604e-425e-b11c-1eac267408e2" name="Default Changelist" comment="Cavalo">
+    <list default="true" id="72e7ae87-604e-425e-b11c-1eac267408e2" name="Default Changelist" comment="Roque.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/chess/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/pieces/Queen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/chess/rules/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/chess/rules/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614283672324</updated>
       <workItem from="1627409955107" duration="5932000" />
-      <workItem from="1627430850183" duration="3636000" />
+      <workItem from="1627430850183" duration="7577000" />
     </task>
     <task id="LOCAL-00001" summary="hewwo main">
       <created>1614284147069</created>
@@ -182,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627431951856</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Roque.">
+      <created>1627443510570</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1627443510570</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +235,7 @@
     <MESSAGE value="Cheque." />
     <MESSAGE value="Mate." />
     <MESSAGE value="Cavalo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cavalo" />
+    <MESSAGE value="Roque." />
+    <option name="LAST_COMMIT_MESSAGE" value="Roque." />
   </component>
 </project>
